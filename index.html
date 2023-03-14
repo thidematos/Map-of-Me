@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="global.css" type="text/css" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <header class="header">
+      <img src="assets/logo300.png" alt="" class="header_logo" />
+      <h1 class="header_titulo">The Map of Me</h1>
+      <nav class="header_nav">
+        <h1 class="header_titulo-1024">The Map of Me</h1>
+        <img
+          src="assets/Menu.svg"
+          alt=""
+          id="menu_hamb"
+          onclick="clickMenu()"
+        />
+        <div id="itens_menu">
+          <ul class="menu_lista">
+            <li class="lista_li"><a href="#" class="nav_link">Home</a></li>
+            <li class="lista_li">
+              <a href="pages/benefits.html" class="nav_link">Jornada</a>
+            </li>
+            <li class="lista_li">
+              <a href="pages/about.html" class="nav_link">Exploradores</a>
+            </li>
+            <li class="lista_li">
+              <a href="pages/signup.html" class="nav_link-cta">Junte-se!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Menu -->
+    <div class="main-section">
+      <h1 class="section_titulo" id="FRASE">O QUE É *****</h1>
+      <p class="section_paragrafo" id="descrição">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+        cupiditate obcaecati in perferendis fugiat id qui praesentium quisquam
+        voluptatum officiis!
+      </p>
+    </div>
+    <div class="conteiner">
+      <img
+        class="lista_imagem"
+        src="https://placekitten.com/g/200/200"
+        alt=""
+      />
+      <div>
+        <h1 class="section_titulo">Quebra-cabeças diversos</h1>
+        <p class="section_paragrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          neque.
+        </p>
+      </div>
+    </div>
+
+    <div class="conteiner">
+      <div>
+        <h1 class="section_titulo" id="titulo2">Um "mundo" de conhecimento</h1>
+        <p class="section_paragrafo" id="texto2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          placeat perferendis hic vel repellendus. Corrupti perferendis
+          molestias, eligendi aut pariatur itaque quidem. Eligendi impedit
+          pariatur beatae vel delectus soluta nisi. Tenetur perferendis eligendi
+          asperiores aspernatur eveniet unde consequatur doloremque error
+          repellat eos molestias, illo assumenda hic ad voluptas laboriosam
+          temporibus itaque cumque qui nesciunt! Doloremque, quas enim! Modi
+          dolore recusandae a placeat blanditiis non, impedit ipsum obcaecati
+          quas cupiditate deleniti deserunt, possimus culpa. Explicabo
+          reprehenderit nobis sequi facilis vitae esse at quidem! Quibusdam
+          ullam qui architecto hic temporibus eaque, in dolores itaque repellat
+          numquam earum similique natus reiciendis aperiam pariatur.
+        </p>
+      </div>
+      <img
+        class="lista_imagem"
+        src="https://placekitten.com/g/200/200"
+        alt=""
+      />
+    </div>
+
+    <div class="conteiner">
+      <img
+        class="lista_imagem"
+        src="https://placekitten.com/g/200/200"
+        alt=""
+      />
+      <div>
+        <h1 class="section_titulo">Um companheiro sem igual</h1>
+        <p class="section_paragrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore
+          explicabo harum, veritatis aperiam dicta perferendis repudiandae alias
+          voluptas! Repellendus culpa accusamus adipisci magni error. Mollitia
+          voluptatum aut exercitationem natus, qui ullam quisquam nemo debitis
+          sed veniam quasi odit magnam nisi nesciunt doloremque eligendi
+          dolores, quidem dicta cupiditate consequatur cumque ducimus. Assumenda
+          architecto, optio cumque repellendus nemo ipsa inventore magnam
+          distinctio, adipisci dicta sint, eius veniam molestiae consequatur
+          tempore incidunt recusandae reprehenderit! Enim, eius in quaerat ex
+          doloremque officia nobis eveniet atque, dolore fugiat vel esse
+          suscipit exercitationem laudantium reprehenderit autem? Recusandae
+          quas blanditiis aperiam dolorem, mollitia delectus incidunt quidem.
+        </p>
+      </div>
+    </div>
+
+    <div class="conteiner-final">
+      <h1 class="section_titulo" id="FINAL">Se torne um aventureiro!</h1>
+
+      <a class="nav_link-cta" id="FINAL2" href="/signup/signup.html"
+        >Junte-se</a
+      >
+    </div>
+    <script>
+      function clickMenu() {
+        if (itens_menu.style.display == "none") {
+          itens_menu.style.display = "flex";
+        } else {
+          itens_menu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

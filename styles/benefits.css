@@ -1,0 +1,181 @@
+@import url("header.css");
+@import url(table.css);
+@import url(card.css);
+@import url(footer.css);
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.main_section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.section_titulo {
+  font: 700 1.5rem var(--font);
+  color: black;
+  padding: 2rem 0;
+}
+
+.section-strong {
+  font-weight: 700;
+  color: var(--laranja);
+}
+
+.section_paragrafo {
+  text-indent: 2rem;
+  font: 400 1em var(--font);
+  color: black;
+  text-align: justify;
+  padding: 1rem 0;
+}
+
+.section_lista {
+  list-style-position: inside;
+  padding: 1rem 0;
+}
+
+.section_lista_li {
+  font: 700 1em var(--font);
+}
+
+.section_subtitulo {
+  font: 700 1.3em var(--font);
+  padding: 2rem 0;
+}
+
+.section_subtitulo-em {
+  display: inline-block;
+  font: 700 2em var(--fontLogo);
+}
+
+blockquote {
+  text-align: justify;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  font: 400 1.12rem var(--font);
+}
+
+.lista_imagem {
+  display: none;
+}
+
+.container_section1600 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#cardfooter {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .section_logo {
+    display: none;
+  }
+
+  .section_titulo {
+    font-size: 2.5rem;
+  }
+
+  .section_subtitulo {
+    font-size: 2.3rem;
+  }
+
+  .section_paragrafo {
+    font-size: 2rem;
+  }
+
+  .section_lista_li {
+    font-size: 2rem;
+  }
+
+  .section_lista {
+    width: 95vw;
+    align-self: start;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .lista_itens {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  .lista_imagem {
+    display: block;
+  }
+  blockquote {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section_titulo {
+    font-size: 2rem;
+  }
+
+  .section_subtitulo {
+    font-size: 1.8rem;
+  }
+
+  .section_paragrafo {
+    font-size: 1.5rem;
+  }
+
+  .section_lista_li {
+    font-size: 1.8rem;
+  }
+
+  .section_lista {
+    justify-content: space-around;
+  }
+
+  .container_section1600 {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 95vw;
+    gap: 2.5rem;
+  }
+
+  .section1600 {
+    width: 90%;
+  }
+
+  blockquote {
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  .section_quote-card {
+    width: 95vw;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #cardfooter {
+    display: flex;
+    width: 40%;
+  }
+
+  #titlecard {
+    font-size: 1.4rem;
+  }
+
+  #dsm {
+    width: 65%;
+    align-self: center;
+  }
+}
