@@ -98,3 +98,7 @@
   font: 700 2.5rem var(--fontLogo);
   color: white;
 }
+
+@media screen and (max-width: 1024) {
+  
+}
